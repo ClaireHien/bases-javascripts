@@ -1,3 +1,6 @@
+console.log("----------------------------------------------------------");
+
+{  prompt("lancement du script3 : appuie sur entrée pour continuer");
 let n = prompt("Salut ! Bienvenue dans ma pyramide, combien d'étages veux-tu ?");
 
 var message = "";
@@ -18,4 +21,6 @@ for (var a=1; a<=n; a++){
     console.log(`${espace}${message}`);
     espace = ""
    // console.log(message)
+}
+
 }
